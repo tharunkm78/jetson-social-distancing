@@ -48,11 +48,15 @@ cd /workspace
 python3 posenet_socialdistancing.py --input /dev/video0
 ```
 
+**Access Dashboard:** `http://<jetson-ip>:5000`
+
 ### On Windows
 ```bash
 pip install flask ultralytics opencv-python numpy
 python posenet_socialdistancing.py --input 0
 ```
+
+**Access Dashboard:** `http://localhost:5000`
 
 ## 🎮 Usage
 
